@@ -39,7 +39,7 @@ TextLayout.prototype.update = function(opt) {
   this._setupSpaceGlyphs(font)
   
   var lines = wordWrap.lines(text, opt)
-  var minWidth = opt.width || 0
+  var minWidth = 0
 
   //clear glyphs
   glyphs.length = 0
